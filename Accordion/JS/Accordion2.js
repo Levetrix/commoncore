@@ -79,7 +79,10 @@ if ( typeof define === 'function' && define.amd ) {
 
 })( window );
 
-
+//fake jQuery
+var $ = function(selector){
+  return document.querySelector(selector);
+}
 var accordion = $('.accordion');
 
 
