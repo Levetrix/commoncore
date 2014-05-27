@@ -106,6 +106,11 @@ h1 {
   height: auto;
   overflow: hidden;
 }
+
+.accordionItem2 {
+  height: auto;
+  overflow: hidden;
+}
 @media all {
   /* line 86, ../sass/Accordion2.scss */
   .accordionItem {
@@ -114,6 +119,14 @@ h1 {
     -moz-transition: max-height 1s;
     -o-transition: max-height 1s;
     transition: max-height 1s;
+  }
+  
+  .accordionItem2 {
+    max-height: 15em;
+    -webkit-transition: max-height .65s;
+    -moz-transition: max-height .65s;
+    -o-transition: max-height .65s;
+    transition: max-height .65s;
   }
 }
 @media screen and (min-width: 48em) {
@@ -125,6 +138,14 @@ h1 {
     -o-transition: max-height 1.5s;
     transition: max-height 1.5s;
   }
+  
+  .accordionItem2 {
+    max-height: auto;
+    -webkit-transition: max-height .65s;
+    -moz-transition: max-height .65s;
+    -o-transition: max-height .65s;
+    transition: max-height .65s;
+  }
 }
 
 /* line 101, ../sass/Accordion2.scss */
@@ -135,21 +156,21 @@ h1 {
 /* line 104, ../sass/Accordion2.scss */
 .animateIn {
   -webkit-animation-name: accordionIn;
-  -webkit-animation-duration: 0.65s;
+  -webkit-animation-duration: 0.5s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-direction: normal;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: both;
   -webkit-animation-delay: 0s;
   -moz-animation-name: normal;
-  -moz-animation-duration: 0.65s;
+  -moz-animation-duration: 0.5s;
   -moz-animation-iteration-count: 1;
   -moz-animation-direction: alternate;
   -moz-animation-timing-function: ease-in-out;
   -moz-animation-fill-mode: both;
   -moz-animation-delay: 0s;
   animation-name: accordionIn;
-  animation-duration: 0.65s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-timing-function: ease-in-out;
@@ -160,21 +181,21 @@ h1 {
 /* line 128, ../sass/Accordion2.scss */
 .animateOut {
   -webkit-animation-name: accordionOut;
-  -webkit-animation-duration: 0.75s;
+  -webkit-animation-duration: 0.5s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-direction: alternate;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: both;
   -webkit-animation-delay: 0s;
   -moz-animation-name: accordionOut;
-  -moz-animation-duration: 0.75s;
+  -moz-animation-duration: 0.5s;
   -moz-animation-iteration-count: 1;
   -moz-animation-direction: alternate;
   -moz-animation-timing-function: ease-in-out;
   -moz-animation-fill-mode: both;
   -moz-animation-delay: 0s;
   animation-name: accordionOut;
-  animation-duration: 0.75s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
