@@ -107,7 +107,7 @@ h1 {
 @media all {
   /* line 86, ../sass/Accordion2.scss */
   .accordionItem {
-    max-height: 50em;
+    max-height: auto;
     -webkit-transition: max-height 1s;
     -moz-transition: max-height 1s;
     -o-transition: max-height 1s;
@@ -263,3 +263,49 @@ h1 {
     transform: scale(0.8);
   }
 }
+
+
+
+<!-- My changes to the internal accordion   -top to bottom, left to right ;)   -->
+
+.accordion2 {
+		
+}
+
+.accordion2 dl:after {
+	display:none;	
+}
+
+.accordionTitle2 {
+	background-color: #eee;
+	color: #323232;
+
+}
+
+.accordion2 p {
+	margin-left:20%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
