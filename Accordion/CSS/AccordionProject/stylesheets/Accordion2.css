@@ -117,7 +117,7 @@ h1 {
 @media screen and (min-width: 48em) {
   /* line 86, ../sass/Accordion2.scss */
   .accordionItem {
-    max-height: 15em;
+    max-height: auto;
     -webkit-transition: max-height 0.5s;
     -moz-transition: max-height 0.5s;
     -o-transition: max-height 0.5s;
