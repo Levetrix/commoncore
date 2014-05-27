@@ -10,6 +10,7 @@
 /* line 11, ../sass/Accordion2.scss */
 body {
   font-family:'Lato';
+  font-size:14px;
 }
 
 /* line 16, ../sass/Accordion2.scss */
@@ -29,13 +30,14 @@ h1 {
   display: block;
   height: 1em;
   width: 100%;
-  background-color: #2ba659;
+  background-color: rgba(83,128,173,1);
 }
 /* line 33, ../sass/Accordion2.scss */
 .accordion dt > a {
   text-align: center;
+  font-size:1em;
   font-weight: 700;
-  padding: 2em;
+  padding: 1.5em;
   display: block;
   text-decoration: none;
   color: #fff;
@@ -60,15 +62,15 @@ h1 {
 
 /* line 58, ../sass/Accordion2.scss */
 .container {
-  max-width: 960px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 2em 0 2em 0;
 }
 
 /* line 63, ../sass/Accordion2.scss */
 .accordionTitle {
-  background-color: #38cc70;
-  border-bottom: 1px solid #30bb64;
+  background-color: rgba(83,128,173,1);
+  border-bottom: 1px solid rgba(183,212,239,1);
 }
 /* line 66, ../sass/Accordion2.scss */
 .accordionTitle:before {
@@ -83,12 +85,12 @@ h1 {
 }
 /* line 74, ../sass/Accordion2.scss */
 .accordionTitle:hover {
-  background-color: #2ba659;
+  background-color: rgba(49,103,147,1);
 }
 
 /* line 78, ../sass/Accordion2.scss */
 .accordionTitleActive {
-  background-color: #2ba659;
+  background-color: rgba(49,103,147,1);
 }
 /* line 80, ../sass/Accordion2.scss */
 .accordionTitleActive:before {
